@@ -12,3 +12,7 @@ Fokusnya adalah menunjukkan bagaimana data dapat diproses di background tanpa me
 3. Notifikasi
    - Notifikasi dikelola oleh utilitas bernama NotificationHelper.
    - ViewModel cukup memanggil satu fungsi ketika data berhasil diload, sementara helper mengurus pembuatan channel dan buildernya.
+
+![Sebelum Proses](Snap_Tampilan%sebelum%proses.png)
+![Setelah Proses](Snap_Tampilan%setelah%proses%selesai%+%data%muncul)
+![Notifikasi](Snap_Screenshot%notifikasi%yang%muncul.png)
