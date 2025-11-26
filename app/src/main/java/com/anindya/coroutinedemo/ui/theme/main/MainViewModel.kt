@@ -39,7 +39,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 NotificationHelper.showNotification(
                     getApplication(),
                     "Data Loaded",
-                    "Successfully loaded ${result.size} students."
+                    "Successfully loaded ${result.size} data."
                 )
 
             } catch (e: Exception) {
