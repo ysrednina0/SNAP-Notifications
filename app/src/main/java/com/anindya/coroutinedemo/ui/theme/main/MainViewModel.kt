@@ -7,12 +7,12 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.anindya.coroutinedemo.data.FakeRepository
-import com.anindya.coroutinedemo.data.Mahasiswa
+import com.anindya.coroutinedemo.data.HydrationRecord
 import com.anindya.coroutinedemo.utils.NotificationHelper
 import kotlinx.coroutines.launch
 
 data class MainUiState(
-    val data: List<Mahasiswa> = emptyList(),
+    val data: List<HydrationRecord> = emptyList(),
     val isLoading: Boolean = false,
     val errorMessage: String? = null
 )
@@ -29,7 +29,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             uiState = uiState.copy(isLoading = true, errorMessage = null)
 
             try {
-                val result = repository.getMahasiswaData()
+                val result = repository.getHydrationData()
 
                 uiState = uiState.copy(
                     data = result,

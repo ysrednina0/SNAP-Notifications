@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "type": "Water",
+    "amount": "300 mL",
+    "time": "08:00 AM"
+  },
+  {
+    "id": 2,
+    "type": "Water",
+    "amount": "500 mL",
+    "time": "12:30 PM"
+  },
+  {
+    "id": 3,
+    "type": "Water",
+    "amount": "300 mL",
+    "time": "15:00 PM"
+  }
+]
