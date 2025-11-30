@@ -15,4 +15,4 @@ Fokusnya adalah menunjukkan bagaimana data dapat diproses di background tanpa me
 
 | Layar Utama (Kosong) | Proses Loading | Hasil & Notifikasi |
 |:---:|:---:|:---:|
-| ![Awal](layar-utama-awal.jpg) | ![Data](layar-utama-data.jpg) | ![Awal](notifikasi.jpg) |
+| ![Awal](layar-utama-awal.png) | ![Data](layar-utama-data.png) | ![Awal](notifikasi.png) |
